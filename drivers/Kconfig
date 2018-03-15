@@ -9,6 +9,8 @@
 
 menu "Device Drivers"
 
+source "drivers/1-wire/Kconfig"
+
 source "drivers/bluetooth/Kconfig"
 
 source "drivers/ieee802154/Kconfig"
@@ -34,6 +36,8 @@ source "drivers/gpio/Kconfig"
 source "drivers/interrupt_controller/Kconfig.shared_irq"
 
 source "drivers/spi/Kconfig"
+
+source "drivers/w1/Kconfig"
 
 source "drivers/i2c/Kconfig"
 
