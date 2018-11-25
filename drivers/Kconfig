@@ -9,8 +9,6 @@
 
 menu "Device Drivers"
 
-source "drivers/1-wire/Kconfig"
-
 source "drivers/bluetooth/Kconfig"
 
 source "drivers/ieee802154/Kconfig"
@@ -76,6 +74,8 @@ source "drivers/crypto/Kconfig"
 source "drivers/display/Kconfig"
 
 source "drivers/led_strip/Kconfig"
+
+source "drivers/w1/Kconfig"
 
 source "drivers/wifi/Kconfig"
 
